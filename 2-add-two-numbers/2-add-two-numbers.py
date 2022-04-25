@@ -117,6 +117,7 @@ class Solution(object):
         for i in reversed(str(sum)):
             current.next = ListNode(int(i))
             current = current.next
+      
         return dummy.next
 
     
