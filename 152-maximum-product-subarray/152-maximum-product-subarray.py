@@ -22,7 +22,7 @@ class Solution:
         return result
     
     
-#     time complexity = O(n) only itersting in input
+#     time complexity = O(n) only iterating in input
 # space comlexity = O(1) no use of array 
                 
                 
