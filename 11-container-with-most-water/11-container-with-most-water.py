@@ -2,6 +2,7 @@ class Solution:
     def maxArea(self, height: List[int]) -> int:
         # area is length times width 
         #  we needd to maximazi area as much as possible
+#Brute Force: testing areas from first pointer to evry pointer and seeing how they compare and ends up with O(n^2)
 
         begining = 0
         end = len(height)-1
