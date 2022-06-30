@@ -18,12 +18,14 @@ class Solution:
 #             we usemin begonnog and end since water will over flow when it is at max height and maxes sense
 
 
-            if height[begining] >=height[end]:
+            if height[begining] <height[end]:
                 # update end
-                end = end -1
+                
+                begining = begining +1
+
 
             else:
-                begining = begining +1
+                end = end -1
 
         return max_area
 # space o{1} ans linear time  o[n]
