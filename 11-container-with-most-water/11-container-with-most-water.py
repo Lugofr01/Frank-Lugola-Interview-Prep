@@ -4,11 +4,12 @@ class Solution:
         #  we needd to maximazi area as much as possible
 #Brute Force: testing areas from first pointer to evry pointer and seeing how they compare and ends up with O(n^2)
 
+
         begining = 0
         end = len(height)-1
         max_area = 0
 
-        # we gonna keep calculating heght till begin meete with end
+        # we gonna keep calculating height till begin meete with end
 
 
         while begining < end:
@@ -25,4 +26,22 @@ class Solution:
                 begining = begining +1
 
         return max_area
-# space o{1} ans linear o[n]
+# space o{1} ans linear time  o[n]
+
+
+
+
+
+
+
+
+
+# Brute Force:
+# res = 0
+# for l in range(len(height)):
+# for r in range(l+1, len(height)):
+# area = (r-l)*min(height[l],height[r])
+# res = max(area,res)
+# return res
+# o(n^2) complexity
+
