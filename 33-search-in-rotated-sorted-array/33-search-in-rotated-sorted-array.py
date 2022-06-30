@@ -36,7 +36,10 @@ class Solution:
                 else:
                     left =mid +1
                     # we search right part of the array
-        return -1             
+        return -1  
+    
+    
+    # time o(nlogn) space o(1)
                     
                     
                     
