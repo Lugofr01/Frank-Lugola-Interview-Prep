@@ -47,6 +47,7 @@ class Solution:
                     # Skip all similar to the current left and right so that,
                     # when we are moving to the next element, we dont move to an element with the same value
                     while left < right and nums[left] == nums[left+1]:
+                        # avoid same values
                         left += 1
                     while left < right and nums[right] == nums[right-1]:
                         right -= 1
