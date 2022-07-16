@@ -11,6 +11,9 @@ class Solution:
             dp[i]=1+dp[i-offset]
             
         return dp
+    
+    
+#     o(n) time and space
             
             
         
