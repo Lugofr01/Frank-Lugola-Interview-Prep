@@ -9,7 +9,8 @@ class Solution:
                 r -= 1
             if s[l].lower() != s[r].lower():
                 return False
-            l +=1; r -= 1
+            l +=1
+            r -= 1
         return True
     def alphaNum(self,char):
         return (ord("A")<=ord(char)<= ord("Z")
